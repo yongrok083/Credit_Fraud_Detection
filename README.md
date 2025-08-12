@@ -48,6 +48,7 @@ fraud.groupby(['cc_num', 'trans_date'])['amt'].transform('count')
 fraud.groupby(['cc_num', 'trans_date'])['amt'].transform('mean')
 
 🆕 만든 주요 변수
+
 trans_hour → 거래 시간
 
 trans_weekday → 거래 요일
