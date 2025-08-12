@@ -46,6 +46,7 @@ fraud['trans_weekday'].isin([5, 6]).astype(int)
 # 그룹별 변환 (거래 횟수, 평균)
 fraud.groupby(['cc_num', 'trans_date'])['amt'].transform('count')
 fraud.groupby(['cc_num', 'trans_date'])['amt'].transform('mean')
+
 🆕 만든 주요 변수
 trans_hour → 거래 시간
 
