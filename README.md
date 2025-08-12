@@ -36,7 +36,7 @@ np.log1p(fraud['amt'])
 
 # 위도/경도 거리 계산 함수 (haversine)
 def haversine(lat1, lon1, lat2, lon2):
-    ...
+
 
 # 날짜/시간에서 시(hour), 요일(weekday), 주말 여부(is_weekend) 추출
 fraud['trans_date_trans_time'].dt.hour
